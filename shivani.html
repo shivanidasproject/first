@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body>
+
+<!-- Navigation (Stays on Top) -->
+<div class="w3-top w3-bar w3-black">
+<a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="C:\Users\91836\Desktop\webpage\web.html" class="w3-button w3-bar-item">Login</a>
+  <a href="file:///C:/Users/91836/Desktop/webpage/contact.html" class="w3-button w3-bar-item">Contact</a>
+</div>
+
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="D:\3rd semster\webpage\2.jfif" alt="photo-1483101974978-cf266fdf1139.jpg"
+  style="width:100%">
+  <img class="mySlides" src="D:\3rd semster\webpage\5.jfif" alt="11.jpg"
+  style="width:100%">
+  <img class="mySlides" src="D:\3rd semster\webpage\photo-1483101974978-cf266fdf1139.jpg" alt="8.jpg"
+  style="width:100%">
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide"><b><u>THE SENSATION MUSIC BAND<b></u></h2>
+  <p class="w3-opacity"><i>Music is love</i></p>
+  <p class="w3-justify">Music is the art of arranging sounds in time to produce a composition through the elements of melody, harmony, rhythm, and timbre.It is one of the universal cultural aspects of all human societies. General definitions of music include common elements such as pitch which governs melody and harmony, rhythm (and its associated concepts tempo, meter, and articulation), dynamics (loudness and softness), and the sonic qualities of timbre and texture (which are sometimes termed the "color" of a musical sound). Different styles or types of music may emphasize, de-emphasize or omit some of these elements. Music is performed with a vast range of instruments and vocal techniques ranging from singing to rapping; there are solely instrumental pieces, solely vocal pieces (such as songs without instrumental accompaniment) and pieces that combine singing and instruments.With colourful twinkling lights and festive season surrounding us, we thought we will bring you a list of artists that you must check out to make your party scenes lit. Music always sets the party mood and there is no denying to that. Catch ‘em before they are booked off and get ready to have the best time with your friends and family. </p>
+</section>
+
+<!-- Band Members -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p>ZAKIR</p>
+    <img src="C:\Users\91836\Desktop\webpage\3.jfif" alt="3.jfif" style="width:100%">
+    <p>YOU ME AND BEATS!</p>
+  </article>
+  <article class="w3-third">
+    <p>DEEPALI</p>
+    <img src="C:\Users\91836\Desktop\webpage\7.jfif" alt="7.jfif" style="width:100%">
+    <p>COLOR OF MY MUSIC WILL MAKE YOU FELL TOP OF THE WORLD!</p>
+  </article>
+  <article class="w3-third">
+    <p>HEFARAL</p>
+    <img src="C:\Users\91836\Desktop\webpage\2.jfif" alt="2.jfif" style="width:100%">
+    <p>ALL YOU NEED IS HERE MEMORIES AND MUSIC!</p>
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-whatsapp"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="#" target="_blank">music.in</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
